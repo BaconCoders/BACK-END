@@ -1,0 +1,23 @@
+cmd 실행 방법
+
+C:\Users\jmcjm>cd/
+
+C:\>D:
+
+D:\>cd PROJECT
+
+D:\PROJECT>cd ohmygod
+
+D:\PROJECT\ohmygod>cd BACK-END
+
+D:\PROJECT\ohmygod\BACK-END>cd hello-spring
+
+D:\PROJECT\ohmygod\BACK-END\hello-spring>gradlew build
+
+
+이렇게하면 build/libs/.jar 파일 생성됨
+
+
+unbuild .bat 안만듬
+종료할거면, STARTSERVER 에서 ctrl+c 후에 Y 하거나
+작업관리자에서 java.exe 파일 지우기
