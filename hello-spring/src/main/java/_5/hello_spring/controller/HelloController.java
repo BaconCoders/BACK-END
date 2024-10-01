@@ -11,7 +11,6 @@ public class HelloController {
     public String hello(Model model)
     {
         // http://localhost:8080/hello
-        // 강의 듣다가 멈춤.... hello!!가 안나와!!!
         model.addAttribute("data", "hello!!");
         return "hello";
     }
