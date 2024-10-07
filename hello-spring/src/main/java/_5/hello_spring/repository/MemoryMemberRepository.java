@@ -1,9 +1,11 @@
 package _5.hello_spring.repository;
 
 import _5.hello_spring.domain.Member;
+import org.springframework.stereotype.Repository;
 
 import java.util.*;
 
+//@Repository
 public class MemoryMemberRepository implements MemberRepository {
 
     //  Ctrl Space

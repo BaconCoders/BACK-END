@@ -3,14 +3,18 @@ package _5.hello_spring.service;
 import _5.hello_spring.domain.Member;
 import _5.hello_spring.repository.MemberRepository;
 import _5.hello_spring.repository.MemoryMemberRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
 
 // 테스트 케이스 만드는 단축키 Ctrl Shift T
+//@Service
 public class MemberService {
     private final MemberRepository memberRepository;// = new MemoryMemberRepository();
 
+    //@Autowired
     public MemberService(MemberRepository memberRepository) {
         this.memberRepository = memberRepository;
     }
